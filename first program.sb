@@ -1,0 +1,4 @@
+TextWindow.WriteLine("hello")
+TextWindow.Read()
+TextWindow.WriteLine("how are you")
+TextWindow.Read()
