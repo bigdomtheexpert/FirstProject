@@ -1,0 +1,5 @@
+GraphicsWindow.FontSize = 50
+GraphicsWindow.FontBold = 100
+GraphicsWindow.BackgroundColor = "yellow" 
+
+

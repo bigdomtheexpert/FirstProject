@@ -1,0 +1,6 @@
+Textwindow.Writeline("how old are you")
+age = TextWindow.Read()
+For y = 2020 To 2060
+  newage = y - 2020 + age
+  TextWindow.WriteLine(" in " + y + " you will be " + newage)
+  EndFor

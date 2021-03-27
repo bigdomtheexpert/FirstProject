@@ -1,0 +1,16 @@
+While("True")
+  Sensor.SetMode(1,0)
+  Motor.Start("AD",-100)
+  Sensor.SetMode(1,0)
+  While Sensor.ReadPercent(1) > 25
+  EndWhile
+  Speaker.Tone (30,50,500)
+  direction = 0
+  If Math.GetRandomNumber(2) = 1 Then
+    direction = 100
+  Else
+    direction = -100
+  EndIf
+  Motor.MoveSteer("AD",100,direction,400,"False")
+  Motor.Move("B",100,100,"False")
+EndWhile

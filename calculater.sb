@@ -1,0 +1,5 @@
+TextWindow.WriteLine("what number do you want")
+num1 = TextWindow.Read()
+TextWindow.WriteLine("what number do yo want")
+num2 = TextWindow.Read()
+TextWindow.WriteLine( "the answer is "  + num1 * num2 )

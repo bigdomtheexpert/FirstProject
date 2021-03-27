@@ -1,0 +1,8 @@
+'GraphicsWindow.BrushColor = "green"
+TextWindow.ForegroundColor = "blue"
+TextWindow.WriteLine("Hello World")
+TextWindow.Read()
+'GraphicsWindow.FontBold = 1
+'GraphicsWindow.FontSize = 70
+'GraphicsWindow.BackgroundColor = "black"
+'GraphicsWindow.DrawText(100,100 "hello world")

@@ -1,0 +1,7 @@
+Sensor.SetMode(4,0)
+While "True"
+If Sensor.ReadPercent(4) = 100 Then 
+  Motor.Move("A",10,80,"True")
+  Motor.Move("A",-5,80"True")
+EndIf
+EndWhile

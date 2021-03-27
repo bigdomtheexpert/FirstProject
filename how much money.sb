@@ -1,0 +1,6 @@
+TextWindow.WriteLine("how much money do you have")
+money = TextWindow.Read()
+TextWindow.WriteLine("how many months have you saved your money")
+months = TextWindow.Read()
+TextWindow.WriteLine("you have saved " + money * months )
+
