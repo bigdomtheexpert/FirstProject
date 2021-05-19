@@ -1,0 +1,7 @@
+While("True")
+  Sensor.SetMode(1,0)
+  While Sensor.ReadPercent(1) > 25
+  EndWhile
+  Speaker.Tone (100,50,500)
+  
+EndWhile
